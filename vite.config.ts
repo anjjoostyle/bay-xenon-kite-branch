@@ -176,6 +176,7 @@ export default defineConfig(({ command, isPreview }) => ({
   preset: "vercel",
   externals: {
     inline: ["tslib"],
+    traceInclude: ["tslib"],
   },
             // Auto-registers server/middleware/* (the PWA install page +
             // manifest + head-tag middleware). Nitro v3 defaults serverDir to
