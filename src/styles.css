@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap");
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --font-sans: "Figtree", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fraunces", "Iowan Old Style", Georgia, serif;
+
+  --color-background: #f3efe6;
+  --color-foreground: #1c1814;
+  --color-card: #faf7f1;
+  --color-card-foreground: #1c1814;
+  --color-popover: #faf7f1;
+  --color-popover-foreground: #1c1814;
+  --color-primary: #1e4d3a;
+  --color-primary-foreground: #f4f1ea;
+  --color-secondary: #e7e1d4;
+  --color-secondary-foreground: #1c1814;
+  --color-muted: #e7e1d4;
+  --color-muted-foreground: #5e574c;
+  --color-accent: #e4ddd0;
+  --color-accent-foreground: #1c1814;
+  --color-destructive: #8f2d2d;
+  --color-destructive-foreground: #faf7f1;
+  --color-border: #d4cbb8;
+  --color-input: #d4cbb8;
+  --color-ring: #1e4d3a;
+  --color-ink-soft: #7a7368;
+  --color-rule: #c4b7a1;
+
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius: 12px;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  body {
+    background: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+    font-family: var(--font-display);
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #111111 !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .print-sheet {
+    box-shadow: none !important;
+    border: 0 !important;
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8080/pronta-entrega",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Caderneta",
+      "hasCanvas": false,
+      "bodyTextLen": 856,
+      "bodyTextHash": "34211a3e618f10bfaecc00846720d9851b13b22a69d01dc7deaeec759a54cc36",
+      "bodyTextPrefix": "Caderneta PRONTA ENTREGA Clientes Produtos Pronta entrega Pronta",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/pronta.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Caderneta",
+      "hasCanvas": false,
+      "bodyTextLen": 856,
+      "bodyTextHash": "088b85f756a18af58db32729a72db6046d249b1de49e765fbf19d0a15fa93328",
+      "bodyTextPrefix": "Caderneta PRONTA ENTREGA Pronta entrega A quantidade fica só com",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/pronta-mobile.png"
+    }
+  },
+  "brandWarnings": [
+    "BRAND NOTE: no custom public/og.jpg — the platform will serve the og.grok.me placeholder. Custom cards are the default for games of every kind (DOM board/word games included), whimsical apps, creative tools, and brand-forward pages — only plain utilities (converters, CRUD trackers, admin dashboards) keep the placeholder. If this app is not a plain utility, finish the brand-asset pass per /workspace/.grok/skills/og/SKILL.md."
+  ],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/pronta.json"
+}

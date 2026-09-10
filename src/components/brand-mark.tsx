@@ -1,0 +1,51 @@
+export function BrandMark({ className }: { className?: string }) {
+  return (
+    <svg
+      viewBox="0 0 32 32"
+      fill="none"
+      aria-hidden="true"
+      className={className}
+    >
+      <rect
+        x="6"
+        y="4"
+        width="20"
+        height="24"
+        rx="3"
+        className="fill-primary"
+      />
+      <rect
+        x="9"
+        y="8"
+        width="10"
+        height="1.6"
+        rx="0.8"
+        className="fill-primary-foreground/90"
+      />
+      <rect
+        x="9"
+        y="12"
+        width="14"
+        height="1.6"
+        rx="0.8"
+        className="fill-primary-foreground/70"
+      />
+      <rect
+        x="9"
+        y="16"
+        width="14"
+        height="1.6"
+        rx="0.8"
+        className="fill-primary-foreground/70"
+      />
+      <rect
+        x="9"
+        y="20"
+        width="8"
+        height="1.6"
+        rx="0.8"
+        className="fill-primary-foreground/50"
+      />
+    </svg>
+  );
+}
